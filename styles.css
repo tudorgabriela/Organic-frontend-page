@@ -1,0 +1,332 @@
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 2px;
+}
+/*header start*/
+header{
+    background-color: #ffcc66;
+    padding: 20px 30px;
+    
+    letter-spacing: 2px;
+}
+.header-organic{
+    display: inline-block;
+    width: 100%;
+}
+.header-organic h2{
+    font-size: 40px;
+    float: left;
+}
+.header-organic ul{
+    float: right;
+}
+.header-organic li{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase; 
+    font-weight: 700;   
+    padding: 0 13px;
+}
+
+.header-organic a{
+    color: #333;
+    text-transform: uppercase; 
+    text-decoration: none;
+    padding: 5px;
+}
+.header-organic a:hover {
+    border:2px solid #333;
+}
+.header-organic a:active {
+    border: 2px solid #333;
+}
+
+.header-search{
+    margin: auto;
+    width: 60%;
+   
+    padding: 10px;
+    
+}
+.search-container{
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    font-size: 16px;
+    margin: 20px 20px 41px;
+}
+.search-container input[type="text"] {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.header-search p{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 129px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 136px;
+    margin-bottom: 57px;
+}
+
+/*header end*/
+/*section start*/
+.home-made{
+    background-color: #333;
+    color: white;
+    height: 20%;
+    font-weight: 500;   
+}
+.home-made-container{
+    margin-left: 10%;
+    width: 40%;
+    border-right: 1px solid #a6a6a6;
+    padding-bottom: 20%;
+    line-height: 2px;
+    
+}
+.home-made-container h2{
+    padding-top:30%;
+    padding-left: 2%;
+    border-left: 1px solid #a6a6a6;
+    font-size: 64px;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+
+}
+.home-made-container p{
+    margin: 12% 18% 9% 2%;
+    color: #a6a6a6;
+    line-height: 18px;
+}
+.home-made-container a, .quality-container a{
+   
+    color: #333;
+    margin-left: 2%;
+    background-color: #ffcc66;
+    text-transform: uppercase; 
+    text-decoration: none;
+    padding: 15px 32px;    
+}
+.home-made-container a:hover {
+    color: #a6a6a6;
+}
+.home-made-container a:active {
+    color: #a6a6a6;
+}
+.quality{
+    background-color: white;
+    
+    height: 20%;
+}
+.quality-container{
+    margin-left: 50%;
+    width: 40%;
+    padding-right: 8%;
+    padding-bottom: 7%;
+    line-height: 2px;
+}
+.quality-container h2{
+    padding-top:30%;
+    padding-left: 2%;
+    border-left: 1px solid #a6a6a6;
+    font-size: 80px;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+}
+.quality-container-p1{
+    font-weight: 500;  
+}
+.quality-container-p1, .quality-container h4{
+color: #808080;
+
+margin: 12% 15% 9% 2%;
+    line-height: 18px;
+}
+.quality-container h4{
+    font-weight: 700; 
+    font-family: 'Lato', sans-serif;
+}
+.quality-container-p2{
+    padding-right: 17%;
+    padding-top: 16%;
+    font-style: italic;
+    color: #cccccc;
+    line-height: 18px;
+    margin: 12% 15% -8% 2%;
+    font-family: 'Slabo 27px', serif;
+}
+.quality-container a:hover {
+    color: #a6a6a6;
+}
+.quality-container a:active {
+    color: #a6a6a6;
+}
+
+/*section end*/
+/*footer start*/
+
+.footer-org{
+    text-align: center;
+}
+
+.footer-org-inner {
+    background-color: #ffcc66;
+    margin-top: -91px;
+    padding-top: 81px;
+}
+
+.footer-organic{
+    margin: 0 auto ;
+    width: 60%;
+    padding: 0 10px 10px;
+
+}
+.footer-org h2{
+    font-size: 50px;
+    margin-bottom: 65px;
+}
+.footer-organic input[type="text"] {
+    background: transparent;
+    border: 2px solid #808080;
+    font-size: 20px;
+    width: 43%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 9px;
+}
+.footer-container button{
+    width: 140px;
+    padding: 18px 0 12px;
+    background-color: #333;
+    border: #333;
+    font-weight: 700; 
+    color: #808080;
+}
+.footer-container{
+    margin-bottom: 14%;
+}
+
+
+.footer-organic li{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase; 
+    font-weight: 700;   
+    padding: 16px 65px 70px;
+    
+   
+}
+
+/*sa nu se miste ii dau border si dimensiunea iar la hover ii dau doar culoarea*/
+.footer-organic a{
+    color: #808080;
+   padding: 5px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+
+.footer-organic a:hover {
+    border-color: #808080;
+}
+.footer-organic a:active {
+    border-color: #808080;
+}
+.footer-organic h3{
+    font-size: 54px;
+    color: #808080;
+}
+
+/*footer end*/
+
+
+
+
+
+/*  rp css START*/
+@media (max-width: 807px){
+    body{
+        font-size: 12px;
+    }
+    .home-made-container {
+        width: 90%;
+        border: none;
+        margin: auto;
+    }
+    .quality-container {
+        margin-left: 10%;
+        width: 90%;
+    }
+    .header-organic ul {
+        text-align: center;
+        float: none;
+    }
+    .header-organic li {
+        padding: 0;
+    }
+    .header-organic h2 {
+        float: none;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    .header-search {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+    .header-search p {
+        font-size: 16px;
+        margin-bottom: 52px;
+    }
+    .quality-container-p2 {
+        padding-top: 5%;
+    }
+    h1{
+        font-size: 63px;
+    }
+    .home-made-container h2, .quality-container h2 { 
+        padding-top: 17%;
+        padding-left: 2%;
+        border-left: none;
+        font-size: 42px;
+    }
+    .home-made-container a, .quality-container a {
+        display: block;
+        text-align: center;
+        font-weight: 700;
+    }
+    .footer-org h2 {
+
+        font-size: 40px;
+    }
+    .footer-organic input[type="text"], .footer-container button {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-organic li {
+        padding: 16px 0 44px;
+    }
+}
+
+
+/*rp css END*/
